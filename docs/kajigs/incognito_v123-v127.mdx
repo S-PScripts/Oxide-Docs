@@ -14,17 +14,40 @@ This relies on you being under version 128. See [ChromeOS Versioning](/kajigs/cr
 :::
 
 ## **Instructions:**
-1. Go to chrome://flags/#captive-portal-popup-window. If you're on v126-v127 use the temporary unexpire flags: chrome://flags/#temporary-unexpire-flags-m124 (v126) and chrome://flags/#temporary-unexpire-flags-m125 (v126 and v127).
-2. If it doesn’t exist, make sure to be on chromeOS v123-v127. If you're on v128+, you need to downgrade to v123-v127.
-3. Enable it.
+ IF YOU ARE ON chromeOS v126-v127, GO TO THE v126-v127 SECTION!
+ IF YOU ARE ON chromeOS v128, GO TO THE v128 SECTION!
+1. Go to chrome://flags/#captive-portal-popup-window. <br>
+   -> If you're on v126-v127, go to the v126-v127 section. <br>
+   -> If you're on v128, you need to downgrade to v123-v127 <br> 
+4. Enable it. <br>
+5. Restart.
+6. If the flag didn’t reset, you can continue. Else you cannot.
+
+Now, follow one of the two methods:
+
+### **Option 1:**
+1. Go to Settings.
+2. Click Wifi in the Network section.
+3. Click your wifi.
+4. Click Network.
+5. Set Name servers to Custom name servers.
+6. Set the first box to detectportal.firefox.com OR captive.apple.com OR 150.136.163.0 (yes you can use the v105 dns)
+7. A sign in pop up should appear from your wifi. Click Sign in.
+8. Do CTRL+T and you're now in Incognito mode! <br>
+   -> You can also right click the top of the tab then click "Show as tab" to open Incognito. <br>
+9. Set Name servers back to what it was before. You will also need to disconnect and reconnect to your wifi. <br>
+
+### **Option 2:**
+1. If you have access to EE Wifi in the UK, connect to it.
+2. A sign in pop up should appear from your WiFi. Click Sign in.
+3. Do CTRL+T and you're now in Incognito mode! <br>
+4. Reconnect to your normal Wifi. <br>
+ -> You can also right click the top of the tab then click "Show as tab" to open Incognito. <br>
+
+## **Instructions (v127-v128):**
+1. Go to:
+   -> chrome://flags#temporary-unexpire-flags-m124 if you are on v126 <br>
+   -> chrome://flags/#temporary-unexpire-flags-m125 if you are on v127 (or v126) <br>
+3. Enable it. <br>
 4. Restart.
-5. If the flag didn’t reset, you can continue. Else you cannot.
-6. Go to Settings.
-7. Click Wifi in the Network section.
-8. Click your wifi.
-9. Click Network.
-10. Set Name servers to Custom name servers.
-11. Set the first box to detectportal.firefox.com OR captive.apple.com OR 150.136.163.0 (yes you can use the v105 dns)
-12. A sign in pop up should appear from your wifi. Click Sign in.
-13. Do CTRL+T and you're now in Incognito mode!
-14. Set Name servers back to what it was before.
+5. Follow the rest of the original instructions.
